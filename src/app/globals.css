@@ -1,0 +1,39 @@
+:root {
+  --white: #ffffff;
+  --light-grey: #f8f9fa;
+  --grey: #868e96;
+  --dark-grey: #495057;
+  --black: #000000;
+
+  --blue: #228be6;
+  --light-blue: #e7f5ff;
+  --dark-blue: #1c7ed6;
+  --darker-blue: #1970bd;
+
+  --green: #12b886;
+  --red: #fa5252;
+
+  --rounding: 0.25rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--inter-font);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--black);
+  background: var(--light-grey);
+}
+*:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px var(--white), 0 0 0 3px var(--darker-blue);
+}

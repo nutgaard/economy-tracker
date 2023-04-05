@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0.5rem auto;
+}
+
+.header {
+    border-bottom: 1px solid var(--grey);
+}
